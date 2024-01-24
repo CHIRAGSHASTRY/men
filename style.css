@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+body{
+    font-family: 'Salsa', cursive;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222;
+}
+.main{
+    width: 1170px;
+    margin: 100px auto;
+}
+.section_title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section_title h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.section_title h1::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #00875c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.menu_column{
+    width: 33%;
+}
+.menu_column h4{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.menu_column h4::before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #00875c;
+    bottom: 0;
+}
+.single_menu{
+    
+}
